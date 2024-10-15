@@ -1,5 +1,6 @@
 body {
     background-color:#080E44;
+    color: white;
 }
 
 /******** Navigation Bar ********/
@@ -23,8 +24,14 @@ body {
     float: left;
 }
 .bar-item a:hover {
-    color: black;
+    color: rgb(35, 184, 77);
 }
 .bar-item a:active {
     background-color: green;
+}
+
+/******* footer ******/
+footer {
+    position: absolute;
+    bottom: 0px;
 }
