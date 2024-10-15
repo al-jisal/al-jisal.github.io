@@ -23,7 +23,7 @@ body {
     float: left;
 }
 .bar-item a:hover {
-    color: rgb(35, 184, 77);
+    color: black;
 }
 .bar-item a:active {
     background-color: green;
