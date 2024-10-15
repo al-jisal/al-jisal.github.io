@@ -3,36 +3,12 @@ body {
     color: white;
 }
 
-
-/******** Navigation Bar ********/
-.navbar {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+/***** List of courses *****/
+.container {
+    margin-top: 30px;
+    padding: 20px
 }
-.bar-item {
-    float: right;
-}
-.bar-item a {
-    display: block;
-    text-decoration: none;
-    color: white;
-    padding: 0px 10px;
-    text-align: center;
-}
-#home {
-    float: left;
-}
-.bar-item a:hover {
-    color: rgb(35, 184, 77);
-}
-.bar-item a:active {
-    background-color: green;
-}
-
-/******* footer ******/
-footer {
-    position: absolute;
-    bottom: 0px;
+.subject {
+    margin-top: 20px;
+    text-align: left;
 }
