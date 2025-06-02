@@ -1,6 +1,11 @@
+import React from "react";
+import Navbar from "./sections/Navbar.jsx"
+
 const App = () => {
   return (
-    <div className="text-white">Navbar</div>
+    <main className="max-w-7xl mx-auto">
+      <Navbar />
+    </main>
   )
 }
 export default App
