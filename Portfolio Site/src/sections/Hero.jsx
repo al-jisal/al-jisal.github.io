@@ -5,7 +5,11 @@ import { Suspense } from 'react';
 import HackerRoom from '../components/HackerRoom';
 import CanvasLoader from '../components/CanvasLoader';
 import Target from '../components/Target';
+import ReactLogo from '../components/ReactLogo';
+import Cube from '../components/Cube.jsx';
+import Rings from '../components/Ring.jsx';
 import { calculateSizes } from '../constants/index.js';
+
 
 const Hero = () => {
     const isSmall = useMediaQuery({maxWidth: 440});
@@ -35,7 +39,10 @@ const Hero = () => {
                             scale={sizes.deskScale}
                         />
                         <group>
-                            <Target />
+                            <Target position={sizes.targetPosition}/>
+                            <ReactLogo position={sizes.reactLogoPosition} />
+                            <Cube position={sizes.cubePosition} />
+                            <Rings position={sizes.ringPosition} />
                         </group>
                         <ambientLight intensity={1} />
                         <directionalLight position={[10, 10, 10]} intensity={0.5} />
