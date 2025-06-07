@@ -9,6 +9,7 @@ import ReactLogo from '../components/ReactLogo';
 import Cube from '../components/Cube.jsx';
 import Rings from '../components/Ring.jsx';
 import HeroCamera from '../components/HeroCamera.jsx';
+import Button from '../components/Button.jsx';
 import { calculateSizes } from '../constants/index.js';
 
 
@@ -34,7 +35,7 @@ const Hero = () => {
                 <Canvas className="w-full h-full">
                     <Suspense fallback={<CanvasLoader />}>
                         <PerspectiveCamera makeDefault position={[0, 0, 20]}/>
-                        <HeroCamera>
+                        <HeroCamera isMobile={isMobile}>
                             <HackerRoom 
                                 position={sizes.deskPosition}
                                 rotation={[0, -Math.PI, 0]}
@@ -51,6 +52,12 @@ const Hero = () => {
                         <directionalLight position={[10, 10, 10]} intensity={0.5} />
                     </Suspense>
                 </Canvas>
+            </div>
+
+            <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
+                <a href="#contact" className="w-fit">
+                    <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96"/>
+                </a>
             </div>
         </section>
     )
