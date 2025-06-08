@@ -14,7 +14,7 @@ const About = () => {
     }
     
     return (
-        <section className="c-space my-20">
+        <section className="c-space my-20" id="about">
             <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
@@ -91,7 +91,7 @@ const About = () => {
                             <div className="copy-container" onClick={handleCopy}>
                                 <img src={hasCopied ? '/assets/tick.svg' : '/assets/copy.svg'} alt="copy" />
                                 <p className="grid-subtext">
-                                    desmond.frimpong@gmail.com
+                                    aljisal.frimpong@gmail.com
                                 </p>
                             </div>
                         </di>
