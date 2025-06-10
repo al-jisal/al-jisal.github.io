@@ -1,5 +1,5 @@
 import Globe from "react-globe.gl";
-import Button from "../components/Button";
+import Button from "../components/Button.jsx";
 import { useState } from "react";
 
 const About = () => { 
@@ -86,7 +86,7 @@ const About = () => {
                 <div className="xl:col-span-1 xl:row-span-2">
                     <div className="grid-container">
                         <img src="/assets/grid4.png" alt="grid-4" className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top"/>
-                        <di className="space-y-2">
+                        <div className="space-y-2">
                             <p className="grid-subtext text-center">Contact Me</p>
                             <div className="copy-container" onClick={handleCopy}>
                                 <img src={hasCopied ? '/assets/tick.svg' : '/assets/copy.svg'} alt="copy" />
@@ -94,7 +94,7 @@ const About = () => {
                                     aljisal.frimpong@gmail.com
                                 </p>
                             </div>
-                        </di>
+                        </div>
                     </div>
                 </div>
             </div>
