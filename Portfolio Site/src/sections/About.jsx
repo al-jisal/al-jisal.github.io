@@ -66,7 +66,9 @@ const About = () => {
                                 I am based in Waterville, US. I am open to remote work opportunities 
                                 and willing to relocate for the right opportunity.
                             </p>
-                            <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+                            <a href="#contact" className="w-fit">
+                                <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+                            </a>
                         </div>
                     </div>
                 </div>
