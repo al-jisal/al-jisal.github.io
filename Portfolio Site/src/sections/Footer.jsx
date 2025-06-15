@@ -16,8 +16,8 @@ const Footer = () => {
                  <a className="social-icon" href="https://x.com/al_jisal" target="_blank" rel="noopener noreferrer">
                     <img src="/assets/twitter.svg" alt="twitter" className="w-1/2 h-1/2"/>
                 </a>
-                 <a className="social-icon">
-                    <img src="/assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2"/>
+                 <a className="social-icon" href="https://www.linkedin.com/in/desmondfrimpong/" target="_blank" rel="noopener noreferrer">
+                    <img src="/assets/linkedin.svg" alt="instagram" className="w-1/2 h-1/2 bg-white"/>
                 </a>
             </div>
             <p className="text-white-500">© 2025 Desmond. All rights reserved.</p>
