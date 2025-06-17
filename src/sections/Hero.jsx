@@ -4,10 +4,8 @@ import { useMediaQuery } from 'react-responsive';
 import { Suspense } from 'react';
 import HackerRoom from '../components/HackerRoom.jsx';
 import CanvasLoader from '../components/CanvasLoader.jsx';
-import Target from '../components/Target.jsx';
+import Linux from '../components/Linux.jsx';
 import ReactLogo from '../components/ReactLogo.jsx';
-import Cube from '../components/Cube.jsx';
-import Rings from '../components/Ring.jsx';
 import HeroCamera from '../components/HeroCamera.jsx';
 import Button from '../components/Button.jsx';
 import { calculateSizes } from '../constants/index.js';
@@ -43,10 +41,8 @@ const Hero = () => {
                             />
                         </HeroCamera>
                         <group>
-                            <Target position={sizes.targetPosition}/>
+                            <Linux position={sizes.linuxPosition}/>
                             <ReactLogo position={sizes.reactLogoPosition} />
-                            <Cube position={sizes.cubePosition} />
-                            <Rings position={sizes.ringPosition} />
                         </group>
                         <ambientLight intensity={1} />
                         <directionalLight position={[10, 10, 10]} intensity={0.5} />
