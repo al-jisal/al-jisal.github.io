@@ -269,7 +269,7 @@ export const workExperiences = [
   },
   {
     id: 2,
-    name: 'SureStart',
+    name: 'SureStart AI',
     pos: 'Machine Learning Intern',
     duration: 'June 2022 - August 2022',
     title: "Implemented a Convolutional Neural Network (CNN) from first principles (forward/backward propagation, convolution, and pooling), building a strong foundation in deep learning systems",
