@@ -13,7 +13,7 @@ const Experience = () => {
                         {workExperiences.map(({id, name, pos, duration, title, icon}) => (
                             <div key={id} className="work-content_container group">
                                 <div className="flex flex-col h-full justify-start items-center py-2">
-                                    <div className="work-content_log0">
+                                    <div className="work-content_logo">
                                         <img src={icon} alt="logo" className="w-full h-full object-contain" />
                                     </div>
                                     <div className="work-content_bar"/>
